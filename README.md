@@ -7,7 +7,7 @@ An AI-powered desktop study assistant designed to help engineering students unde
 - 🤖 AI-powered question answering using Ollama
 - 📚 Engineering-focused study assistance
 - 🔬 Physics, Mathematics, C Programming, Engineering, and General subjects
-- 🎚️ Easy, Medium, and Hard difficulty levels
+- 🎯 Easy, Medium, and Hard difficulty levels
 - ⏱️ Built-in study timer
 - ⏰ Study alarm
 - 🕐 Real-time digital clock
@@ -26,42 +26,9 @@ An AI-powered desktop study assistant designed to help engineering students unde
 - Requests
 - BeautifulSoup4
 
-## 🧠 AI Integration
+## 📸 Application
 
-The application uses **Ollama** to run an AI model locally and generate explanations for engineering questions.
-
-This allows the study assistant to provide responses without requiring a cloud-based AI API key.
-
-## 📚 Subjects
-
-The assistant can be used for:
-
-- Physics
-- Mathematics
-- C Programming
-- Engineering
-- General study questions
-
-## ⏱️ Study Tools
-
-The application includes:
-
-- Custom study timer
-- Start / Stop / Reset controls
-- Study alarm
-- Real-time clock
-- Question history
-
-## 🖥️ User Interface
-
-The application provides a desktop GUI with:
-
-- Subject selection
-- Difficulty selection
-- Question input
-- AI-generated explanations
-- Related learning resources
-- Study-management tools
+![AI Engineering Study Assistant](image.png)
 
 ## 🚀 Installation
 
@@ -74,4 +41,4 @@ Install Python 3.13 or a compatible Python version.
 Open Command Prompt and run:
 
 ```bash
-python -m pip install customtkinter pillow requests beautifulsoup4 ollama
+pip install -r requirements.txt
